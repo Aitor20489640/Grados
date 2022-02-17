@@ -105,7 +105,7 @@ public class ConversorGradosTest {
         ConversorGrados instance = new ConversorGrados();
         double expResult = -20.5556;
         double result = instance.heittocelsius(f);
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 0.001);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
@@ -120,7 +120,7 @@ public class ConversorGradosTest {
         ConversorGrados instance = new ConversorGrados();
         double expResult = -17.7778;
         double result = instance.heittocelsius(f);
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 0.001);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
@@ -150,7 +150,7 @@ public class ConversorGradosTest {
         ConversorGrados instance = new ConversorGrados();
         double expResult = 0.0;
         double result = instance.heittocelsius(f);
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 0.001);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
@@ -166,7 +166,7 @@ public class ConversorGradosTest {
         ConversorGrados instance = new ConversorGrados();
         double expResult = 23;
         double result = instance.celsiustofahrenheit(c);
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 0.001);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
@@ -182,7 +182,7 @@ public class ConversorGradosTest {
         ConversorGrados instance = new ConversorGrados();
         double expResult = 32;
         double result = instance.celsiustofahrenheit(c);
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 0.001);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
@@ -198,7 +198,7 @@ public class ConversorGradosTest {
         ConversorGrados instance = new ConversorGrados();
         double expResult = 59;
         double result = instance.celsiustofahrenheit(c);
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 0.001);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
@@ -214,7 +214,7 @@ public class ConversorGradosTest {
         ConversorGrados instance = new ConversorGrados();
         double expResult = 89.6;
         double result = instance.celsiustofahrenheit(c);
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 0.001);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
