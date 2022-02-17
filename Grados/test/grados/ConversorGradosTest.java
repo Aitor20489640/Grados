@@ -103,7 +103,7 @@ public class ConversorGradosTest {
         System.out.println("heittocelsius");
         double f = -5;
         ConversorGrados instance = new ConversorGrados();
-        double expResult = -20.5;
+        double expResult = -20.5556;
         double result = instance.heittocelsius(f);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
@@ -118,7 +118,7 @@ public class ConversorGradosTest {
         System.out.println("heittocelsius");
         double f = 0;
         ConversorGrados instance = new ConversorGrados();
-        double expResult = -17.7;
+        double expResult = -17.7778;
         double result = instance.heittocelsius(f);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
@@ -133,9 +133,9 @@ public class ConversorGradosTest {
         System.out.println("heittocelsius");
         double f = 15;
         ConversorGrados instance = new ConversorGrados();
-        double expResult = -9.4;
+        double expResult = -9.44444;
         double result = instance.heittocelsius(f);
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 0.001);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
